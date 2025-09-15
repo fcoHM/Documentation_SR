@@ -15,6 +15,8 @@
 | ./         | sudo ./[programa]                                    | esto es para ejecutar un programa que tenga permisos de ejecusion                                                                                                                                               |
 | ls         | ls ~/Downloads/                                      | lista lo que hay en ese directorio                                                                                                                                                                              |
 | base64     | base64                                               | para encriptar o descriptar  en base64                                                                                                                                                                          |
+| wc         | wc [archivo]                                         | contador                                                                                                                                                                                                        |
+|            | git log \| wc -l                                     | en WC sirve pa contar lineas                                                                                                                                                                                    |
 
 
 # NetCat
