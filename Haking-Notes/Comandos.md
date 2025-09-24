@@ -32,3 +32,5 @@
 |          | -s https://jupiter.challenges.picoctf.org/problem/44573/flag | modo silencioso de entrar a una web                 |
 |          | -H "Cookie: username-admin; password-hola; admin-True"       | para mandar un encabezado con una cookie modificada |
 |          | -H "User-Agent: picobrowser"                                 | cambiar el agente o usuario host del cliente        |
+|          | -X  GET/POST http://mercury.picoctf.net:28916/index.php?     | hacer request de metodos GET o POST                 |
+|          | -I HEAD http://mercury.picoctf.net:28916/index.php?          | hacer requests de metodos HEAD                      |
