@@ -27,10 +27,12 @@
 | nc      | nc jupiter.challenges.picoctf.org 6428<br><br>nc  [direccion.red]  [puerto] | establece una conexion con un servidor por medio de la direccion dada y por un puesto especificado |
 |         |                                                                             |                                                                                                    |
 # Curl
-| **curl** |                                                              | hacer requests de headers                           |
-| :------: | ------------------------------------------------------------ | --------------------------------------------------- |
-|          | -s https://jupiter.challenges.picoctf.org/problem/44573/flag | modo silencioso de entrar a una web                 |
-|          | -H "Cookie: username-admin; password-hola; admin-True"       | para mandar un encabezado con una cookie modificada |
-|          | -H "User-Agent: picobrowser"                                 | cambiar el agente o usuario host del cliente        |
-|          | -X  GET/POST http://mercury.picoctf.net:28916/index.php?     | hacer request de metodos GET o POST                 |
-|          | -I HEAD http://mercury.picoctf.net:28916/index.php?          | hacer requests de metodos HEAD                      |
+| **curl** |                                                                                                                                     | hacer requests de headers                           |
+| :------: | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+|          | -s https://jupiter.challenges.picoctf.org/problem/44573/flag                                                                        | modo silencioso de entrar a una web                 |
+|          | -H "Cookie: username-admin; password-hola; admin-True"                                                                              | para mandar un encabezado con una cookie modificada |
+|          | -H "User-Agent: picobrowser"                                                                                                        | cambiar el agente o usuario host del cliente        |
+|          | -X  GET/POST http://mercury.picoctf.net:28916/index.php?                                                                            | hacer request de metodos GET o POST                 |
+|          | -I HEAD http://mercury.picoctf.net:28916/index.php?                                                                                 | hacer requests de metodos HEAD                      |
+|          | -d  POST <br>  curl -s https://jupiter.challenges.picoctf.org/problem/39720/login.php -d "username=admin&password=' OR 1 == 1;"<br> | hacer requests con metodos post                     |
+|          |                                                                                                                                     |                                                     |
