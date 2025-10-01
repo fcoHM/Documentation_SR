@@ -17,6 +17,7 @@
 |   **base64**   | base64                                               | para encriptar o descriptar  en base64                                                                                                                                                                          |
 |     **wc**     | wc [archivo]                                         | contador                                                                                                                                                                                                        |
 |                | git log \| wc -l                                     | en WC sirve pa contar lineas                                                                                                                                                                                    |
+|      xxd       | xxe [archivo]                                        | ver los bites de un archivo                                                                                                                                                                                     |
 
 
 
