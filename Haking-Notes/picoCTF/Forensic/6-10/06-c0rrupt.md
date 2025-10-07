@@ -44,6 +44,11 @@ pngcheck -v mystery
 chunks: informacion despues del head que contiene informacion de la un archivo, comunmente se coforma de 4 partes, longitud de 4bytes, tipo de chunk en 4 bytes, chunk de informacion 4bytes y CRC de 4bytes esta ultima ayuda a corroborar que los datos tengan el tamaño correcto de los chunk, y en imagenes IHDR
 
 el primer chunk despues del head es el mas critico
+
+```
+picoCTF{c0rrupt10n_1847995}
+```
 ## Referencias
+- fernunex
 
 
