@@ -47,3 +47,10 @@
 | zsteg |                        | herramienta para aplicar o hacer uso de tecicas de decodificasion de estenografia                                                                                                       |
 | ----- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |       | zsteg -a buildings.png | -a aplica todas las tecnicas, para obtener un resultado, esto por que no sabemos con que tecnica fue ocultada la informacion, se puede usar en cojunto con grep para filtar informacion |
+
+
+## PNGCHECK
+
+| pngcheck | pngcheck -v archivo | ver el estado de los archivos png                            |
+| -------- | ------------------- | ------------------------------------------------------------ |
+|          | -v archivo          | muestra los errores que o defectos que tiene un archvio png  |
