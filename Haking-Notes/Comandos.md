@@ -54,3 +54,9 @@
 | pngcheck | pngcheck -v archivo | ver el estado de los archivos png                            |
 | -------- | ------------------- | ------------------------------------------------------------ |
 |          | -v archivo          | muestra los errores que o defectos que tiene un archvio png  |
+
+## Binwalk
+
+| binwalk | binwalk archivo      | se encarga de nalizar un archivo y  ver si hay algun archivo dentro de este |
+| ------- | -------------------- | --------------------------------------------------------------------------- |
+|         | binwalk -e [archivo] | extrae cualquier archivo dentro de un archivo                               |
