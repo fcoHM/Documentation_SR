@@ -61,7 +61,7 @@ d/d 3916:       .ssh
 - obtenemos la llave privada
 ```
 ┌──(kali㉿kali)-[~/Downloads]
-└─$ icat -o 206848 disk.img 2345
+└─$ icat -o 206848 disk.img 2345 >key
 -----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
 QyNTUxOQAAACBgrXe4bKNhOzkCLWOmk4zDMimW9RVZngX51Y8h3BmKLAAAAJgxpYKDMaWC
@@ -73,7 +73,7 @@ KZb1FVmeBfnVjyHcGYosAAAADnJvb3RAbG9jYWxob3N0AQIDBAUGBw==
 
 - no logeamos
 ## Notas adicionales
-
+no quiere jalar dice que la llave no tiene permisos
 ## Referencias
 
 
