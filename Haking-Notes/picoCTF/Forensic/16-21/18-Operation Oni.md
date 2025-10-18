@@ -61,7 +61,7 @@ d/d 3916:       .ssh
 - obtenemos la llave privada
 ```
 ┌──(kali㉿kali)-[~/Downloads]
-└─$ icat -o 206848 disk.img 2345 >key
+└─$ icat -o 206848 disk.img 2345 >key_file
 -----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
 QyNTUxOQAAACBgrXe4bKNhOzkCLWOmk4zDMimW9RVZngX51Y8h3BmKLAAAAJgxpYKDMaWC
@@ -71,9 +71,19 @@ KZb1FVmeBfnVjyHcGYosAAAADnJvb3RAbG9jYWxob3N0AQIDBAUGBw==
 -----END OPENSSH PRIVATE KEY-----
 ```
 
+- de damos permisos de solo escritura al nuevo archivo
+```bash
+chmod 400 key_file
+```
+
 - no logeamos
+
+solucion:
+```
+picoCTF{k3y_5l3u7h_af277f77}
+```
 ## Notas adicionales
-no quiere jalar dice que la llave no tiene permisos
+
 ## Referencias
 
-
+- https://www.youtube.com/watch?v=PVeV-S3Zbqk&list=PLDo9DMLZyP6kTZ8Td37-LdbAx4-yNfHBl&index=32&t=308s
