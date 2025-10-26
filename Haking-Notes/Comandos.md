@@ -20,6 +20,7 @@
 |                | git log \| wc -l                                     | en WC sirve pa contar lineas                                                                                                                                                                                    |
 |      xxd       | xxe [archivo]                                        | ver los bites de un archivo                                                                                                                                                                                     |
 |    hexditor    | hexeditor [archivo]                                  | ver en hexadecimal los valores de un archivo                                                                                                                                                                    |
+|    exiftool    | exiftool [archivo]                                   | ver los metadatos de un archivo                                                                                                                                                                                 |
 
 
 
