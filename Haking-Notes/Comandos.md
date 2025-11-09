@@ -21,6 +21,7 @@
 |      xxd       | xxe [archivo]                                        | ver los bites de un archivo                                                                                                                                                                                     |
 |    hexditor    | hexeditor [archivo]                                  | ver en hexadecimal los valores de un archivo                                                                                                                                                                    |
 |    exiftool    | exiftool [archivo]                                   | ver los metadatos de un archivo                                                                                                                                                                                 |
+|      tar       | tar -xf                                              |  extraer contenido de un carpeta tar                                                                                                                                                                            |
 
 
 
